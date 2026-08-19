@@ -1,0 +1,13 @@
+{
+  "originPostalCode": "60601",
+  "destPostalCode": "90210",
+  "packages": [
+    {
+      "weight": 10,
+      "length": 12,
+      "width": 10,
+      "height": 8,
+      "quantity": 1
+    }
+  ]
+}

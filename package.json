@@ -1,0 +1,17 @@
+{
+  "name": "shippeek-agent-kit",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Agent-facing tools and workflows for Shippeek",
+  "license": "Apache-2.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "check": "npm run check --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

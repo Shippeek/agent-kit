@@ -1,0 +1,23 @@
+{
+  "name": "@shippeek/cli",
+  "version": "0.1.0",
+  "description": "Agent-friendly command line interface for Shippeek",
+  "type": "module",
+  "license": "Apache-2.0",
+  "bin": {
+    "shippeek": "./src/cli.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "check": "node --check src/cli.js && node --check src/api.js && node --check src/args.js && node --check src/auth.js && node --check src/config.js && node --check src/output.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

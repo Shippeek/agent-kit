@@ -1,0 +1,17 @@
+{
+  "originPostalCode": "60601",
+  "originType": "business dock",
+  "destPostalCode": "90210",
+  "destType": "business dock",
+  "items": [
+    {
+      "weight": 500,
+      "freightClass": 70,
+      "length": 48,
+      "width": 40,
+      "height": 48,
+      "quantity": 1,
+      "package": "Pallets_48x40"
+    }
+  ]
+}

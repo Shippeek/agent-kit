@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shippeek"
+  short_description: "Build and operate shipping workflows"
+  default_prompt: "Use $shippeek to add a tested Shippeek shipping workflow to this project."
